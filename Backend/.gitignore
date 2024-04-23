@@ -1,2 +1,12 @@
+
+# node modules Will not push to the Github account because it is easy to install  by giving one command npm i
+
 node_modules
+
 temp
+
+
+
+# dot env file also We don't want ot see see publically Because this file contains the sensitive details like username, password database etc
+
+.env
