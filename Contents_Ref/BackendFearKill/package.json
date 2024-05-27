@@ -1,0 +1,20 @@
+{
+  "name": "batch-b",
+  "version": "1.0.0",
+  "description": "This is just a simple apps, making for a front end team in Capstone  projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "ChatCoder-Haven IITPatna IITP OnlineComplier"
+  },
+  "keywords": [
+    "ChatCoder-Haven",
+    "IITPatna",
+    "IITP",
+    "OnlineComplier"
+  ],
+  "author": "Batch-B",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
