@@ -7,7 +7,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Ubuntu&color=blue&size=24&center=true&vCenter=true&width=600&height=100&lines=Pursuing+Bachelor+in,;Computer+Science+and+Data+Analytics+(CSDA),;+From+IIT+Patna,;Passionate+Full+Stack+Web+Developer,;Creating+Complex+and+Innovative+Solutions,;Constant+Learner+and+Tech+Enthusiast!">
 </p>
 
-<p align="center">Group 78 : Capstone Project at I.I.T Patna</p>
+<p align="center">Group 78: Capstone Project at I.I.T Patna</p>
 
 ## About Me
 I am a Computer Science and Data Analytics student at IIT Patna. Passionate about web development, I constantly strive to create complex and innovative solutions. As a full-stack web developer, I love learning and exploring new technologies.
@@ -64,7 +64,7 @@ This project is developed and maintained by Group 78 members of Capstone Project
 
 <!-- GitHub  Repo src -->
 ## Project Repository
-Explore the project repository: [Chat Coder's Haven Repository](https://github.com/ankit485803/ChatCoder-s-Haven_IITP )
+Explore the project repository: https://github.com/ankit485803/ChatCoder-s-Haven_IITP 
 
 
 <!-- Tech Stack -->
@@ -74,19 +74,21 @@ Explore the project repository: [Chat Coder's Haven Repository](https://github.c
   - Express.js
   - React
   - Node.js
+  - Vanilla HTML, CSS, & JavaScript 
 - **Python Programming Language**
 
 
 
 <!-- Key Features -->
 ## Key Features (in short):
-- **Multilingual Support:** Code in various programming languages (currently Python, Java, and C++)
+- **Multilingual Support:** Code in various programming languages currently Python, Java, C++ and JavaScript (under testing)
 - **Real-time Code Compilation and Execution:** Code, compile, and run code snippets within the platform
 - **Integrated Chatbot:** Developed a chatbot to assist users with coding tasks on the platform
 - **QR Code Sign-in (Upcoming Feature):** Implementing a sign-in feature using QR codes, allowing users to directly login to our portal by scanning and connecting
 - **Syntax Highlighting:** Code editor with syntax highlighting tailored to each supported language
 - **Auto-closing Brackets and Line Numbering:** Enhanced code readability with automatic bracket closing and line numbering
 - **Dark Theme Option:** Improve user experience with a dark theme option for reduced eye strain
+- **Interactive Quizzes:** provided (in Challenge section) section which enhanced interactive learning experience.
 
 
 
@@ -103,38 +105,44 @@ Explore the project repository: [Chat Coder's Haven Repository](https://github.c
 ### Frontend Development:
 
 - **Aditya Kumar:**
-  - Responsible for creating the Home page
+  - Responsible (Architect) for creating the Home and Login page
   - In the bustling corridors of our coding haven, Aditya dons the mantle of the Home page creator using HTML, CSS, JavaScript
   - Spearheaded the creation of the project's Home page, ensuring a "user-friendly and welcoming first impression"
   - Owned the design of the Home page, ensuring it effectively communicated ChatCoder's Haven's functionalities
-
+  - Seamless Authentication: While Aditya designed the interface, authentication responsibilities are managed by Ashish Kumar.
+    
 - **Anupama Jagriti:**
-  - In charge of the "About Us" page
+  - In charge of the "About Us" page and Challenge - Section 
   - Skillfully wove the narrative for the 'About Us' page using HTML and CSS
   - Mission Statements: Jagriti distills purpose into sentences. "We code, we dream, we iterate."
+  - Interactive Quizzes: In addition to the 'About Us' page, she developed an engaging Challenge section that enhances our coding experience. 
 
 - **Pranchal Gupta:**
-  - Handling the "Contact Us" page
+  - Managing the “Contact Us” page and Handling User’s Feedback
   - Architected user engagement through the 'Contact Us' page, utilizing HTML, CSS, and JavaScript to establish a clear and functional communication channel
   - "Pranchal built the bridge between users and the team by crafting a user-friendly 'Contact Us' through this page" and form fields bridge continents, inviting messages from distant lands.
+  - Feedback Management: Manages user feedback, facilitating meaningful interactions between users and the team.
 
 ### Backend & Databases:
 
 - **Ankit Kumar:**
   - Plays crucial and pivotal roles, including:
     - Developing the web application, which serves as an online coding platform with multilingual features
+    - Successfully compile the programming languages; currently Python, Java, C++ and JavaScript (under testing)  
     - Ensuring that the coding environment supports syntax highlighting tailored to each programming language
     - Implementing auto-closing brackets for tags and displaying line numbering on the left side of each line
     - Handling real-time CRUD operations (Create, Read, Update, Delete)
     - Contributing to Testing and Debugging part of code, ensuring a robust application, check and review code of each member before pull (PR) to GitHub
     - Integrating the chatbot into our application but created and developed by Ashish Kumar
     - Reviewing and correcting code errors with the support of all members
-    - Merging pull requests, reviewing code, and maintaining the GitHub repository.
+    - Lastly, Merging pull requests, reviewing code, and maintaining the GitHub repository.
 
 - **Ashish Kumar:**
-  - Visionary developer, spearheading his development skills to ChatCoder’s Haven project
+  -  Visionary Developer Spearheading Chatbot and Authentication
   - Pioneering user experience by developing a chatbot that will provide real-time coding assistance directly within the platform
-  - Streamlining user access by implementing a secure and convenient QR code sign-in feature for ChatCoder's Haven (Upcoming Feature)
+  - Secure Access: streamlining user access by implementing a secure and convenient QR code sign-in feature (Upcoming Feature)
+  - Authentication Management:  Alongside Aditya Kumar, who designed the Login page, Ashish handles authentication for the Login Page dashboard, including sign-in and sign-up functionalities using HTML, CSS, JavaScript, and Node.js
+  - Chatbot Development: Using custom data utilization to offer tailored coding help, enhancing the support experience for users.
 
 
 
