@@ -28,6 +28,8 @@
     <!--  providing MODES of Lang Coding eg : c++ or java or in  python -->
     <script src="codemirror-5.65.9/lib/codemirror.js"></script>
     <script src="codemirror-5.65.9/mode/clike/clike.js"></script>
+    <!-- <script src="codemirror-5.65.9/mode/javascript/javascript.js"></script> -->
+
 
     <!-- THEMES PROVIDING -->
     <link rel="stylesheet" href="codemirror-5.65.9/theme/night.css">
@@ -70,6 +72,7 @@
                         <option value="Java">Java</option>
                         <option value="Cpp">Cpp</option>
                         <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
                     </select>
                 </div>
                 <div>
@@ -127,6 +130,9 @@
         else {
             editor.setOption("mode", "text/x-c++src")
         }
+         // else {
+        //     editor.setOption("mode", "text/x-javascript");
+        // }
     })
 
     //make code named obj
@@ -153,3 +159,4 @@
 </script>
 
 </html>
+

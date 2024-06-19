@@ -118,6 +118,38 @@ app.post("/compile", function (req, res) {
                 });
             }
         }
+
+
+        
+        // HERE WE COMMAND JAVASCRIPT BECAUSE COMPILEX CURRENTLY DOESN'T SUPPORT. FOR MORE VISIT: https://www.npmjs.com/package/compilex
+
+        // else if (lang == "JavaScript") {
+        //     if (!input) {
+        //         var envData = { OS: "windows" };
+        //         compiler.compileJavaScript(envData, code, function (data) {
+        //             //CHECK DATA
+        //             if (data.output) {
+        //                 res.send(data);
+        //             }
+        //             else {
+        //                 res.send({ output: "error, provide valid input which give meaning result please !! " })
+        //             }
+        //         });
+        //     }
+        //     else {
+        //         var envData = { OS: "windows" };
+        //         compiler.compileJavaScriptWithInput(envData, code, input, function (data) {
+        //             //CHECK DATA
+        //             if (data.output) {
+        //                 res.send(data);
+        //             }
+        //             else {
+        //                 res.send({ output: "error"})
+        //             }
+        //         });
+        //     }
+        // }
+        
     }
     catch (e) {
         console.log("error")
@@ -125,7 +157,10 @@ app.post("/compile", function (req, res) {
 });
 
 // on WHICH - PORT it's Listen
-app.listen(3030);
+
+app.listen(PORT, () => {
+    console.log(`Your C2 app is listening on this port: ${PORT}`);
+})
 
 
 
