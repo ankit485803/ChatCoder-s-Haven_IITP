@@ -7,14 +7,13 @@
 <!-- our proj featutres -->
 ## Key Features
 
-- **Multilingual Support:** Code in various programming languages (currently Python, Java, and C++).
+- **Multilingual Support:** Code in various programming languages, currently C++, Python, Java, and JavaScript (under testing).
 - **Real-time Code Compilation and Execution:** Code, compile, and run code snippets within the platform.
 - **Integrated Chatbot:** Developed a chatbot to assist users with coding tasks on the platform.
 - **QR Code Sign-in:** Implementing a sign-in feature using QR codes, allowing users to directly login to our portal only if they scan and get connected (Upcoming Feature).
 - **Syntax Highlighting:** Code editor with syntax highlighting tailored to each supported language.
 - **Auto-closing Brackets and Line Numbering:** Enhanced code readability with automatic bracket closing and line numbering.
 - **Dark Theme Option:** Improve user experience with a dark theme option for reduced eye strain.
-
 
 
 
@@ -66,6 +65,11 @@ Python Code Lang testing and compile snapshots:
 <br>
 
 ![Python Code compile](Image/PyCode_TestingCompiler.png)
+
+<br>
+Cpp prog lang compilation screenshot:
+
+![C++ prog lang compilation](Image/Cpp_ProgLang.png)
 
 </p>
 
