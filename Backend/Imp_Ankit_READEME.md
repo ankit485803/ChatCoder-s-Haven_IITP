@@ -30,16 +30,18 @@
 
 ### Backend & Databases:
 
-- **Ankit Kumar:**
-  - Played a crucial role in developing the web application, which serves as an online coding platform with multilingual features.
-  - Ensured that the coding environment supports syntax highlighting tailored to each programming language.
-  - Implemented auto-closing brackets for tags and displayed line numbering on the left side of each line.
-  - Users can enjoy a dark theme option for better visibility and reduced eye strain.
-  - Additionally, Ankit handled real-time CRUD operations (Create, Read, Update, Delete).
-  - Contributed significantly to the Testing and Debugging part of the code, ensuring a robust application, checking and reviewing code of each member before pull (PR) to GitHub.
-  - Integrated the chatbot into our application, created and developed by Ashish Kumar.
-  - Reviewed and corrected code errors with the support of all members.
-  - Lastly, he merged pull requests, reviewed code, and maintained the GitHub repository.
+- **Ankit Kumar:** plays crucial and pivotal roles (Compilation, Repo maintenance & Multilingual feature), are: 
+  
+    - developing the web application, which serves as an online coding platform with multilingual features.
+    - compile the programming languages; currently Python, Java, C++ and JavaScript (under testing). 
+    - ensures that the coding environment supports syntax highlighting tailored to each programming language.
+    - implements auto-closing brackets for tags and displays line numbering on the left side of each new line.
+    - provides dark theme option for better visibility and reduced eye strain
+    - handles real-time CRUD operations (Create, Read, Update, Delete).
+    - contributes to Testing and Debugging part of the code, ensuring a robust application, checking and reviewing the code of each member before pulling (PR) to GitHub.
+    - integrates the chatbot into our application but created and developed by Ashish.
+    - reviewed and corrected code errors with the support of all members.
+    - merged pull requests, reviewed code, and maintained the GitHub repository.
 
 
 
