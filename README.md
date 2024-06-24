@@ -88,7 +88,7 @@ Explore the project repository: https://github.com/ankit485803/ChatCoder-s-Haven
 - **Syntax Highlighting:** Code editor with syntax highlighting tailored to each supported language
 - **Auto-closing Brackets and Line Numbering:** Enhanced code readability with automatic bracket closing and line numbering
 - **Dark Theme Option:** Improve user experience with a dark theme option for reduced eye strain
-- **Interactive Quizzes:** provided (in Challenge section) section which enhanced interactive learning experience.
+- **Interactive Quizzes:** This feature is under the Challenge Section; a quiz format & provides an interactive learning experience.
 
 
 
@@ -102,47 +102,47 @@ Explore the project repository: https://github.com/ankit485803/ChatCoder-s-Haven
 <!-- Team member's work DIVISION -->
 ## Team Members: Roles and Responsibilities
 
-### Frontend Development:
-
-- **Aditya Kumar:**
-  - Responsible (Architect) for creating the Home and Login page
-  - In the bustling corridors of our coding haven, Aditya dons the mantle of the Home page creator using HTML, CSS, JavaScript
-  - Spearheaded the creation of the project's Home page, ensuring a "user-friendly and welcoming first impression"
-  - Owned the design of the Home page, ensuring it effectively communicated ChatCoder's Haven's functionalities
-  - Seamless Authentication: While Aditya designed the interface, authentication responsibilities are managed by Ashish Kumar.
+### Frontend Development:  
+- **Aditya Kumar:** Responsible for creating the Home and Login page.
+  
+  - create the Home page using HTML, CSS, JavaScript.
+  - ensuring a “user-friendly and welcoming first impression" through the home page.
+  - the Login page interface is designed by Aditya & seamless authentication is managed by Ashish.
     
-- **Anupama Jagriti:**
-  - In charge of the "About Us" page and Challenge - Section 
-  - Skillfully wove the narrative for the 'About Us' page using HTML and CSS
-  - Mission Statements: Jagriti distills purpose into sentences. "We code, we dream, we iterate."
-  - Interactive Quizzes: In addition to the 'About Us' page, she developed an engaging Challenge section that enhances our coding experience. 
+- **Anupama Jagriti:** In charge of the “About Us” page and Challenge - Section
 
-- **Pranchal Gupta:**
-  - Managing the “Contact Us” page and Handling User’s Feedback
-  - Architected user engagement through the 'Contact Us' page, utilizing HTML, CSS, and JavaScript to establish a clear and functional communication channel
-  - "Pranchal built the bridge between users and the team by crafting a user-friendly 'Contact Us' through this page" and form fields bridge continents, inviting messages from distant lands.
-  - Feedback Management: Manages user feedback, facilitating meaningful interactions between users and the team.
+  - create the narrative for the 'About Us' page using HTML and CSS.
+  - develop an engaging Challenge section that enhances our coding experience.
+  - to provide Interactive Quizzes (like quiz format) features in the Challenges Section designed using vanilla HTML, CSS, and JavaScript, providing an interactive learning experience.
+    
+- **Pranchal Gupta:** Managing the “Contact Us” page and Handling User’s Feedback
+  
+  - architect user engagement through the 'Contact Us' page, utilizing HTML, CSS, and JavaScript to establish a clear and functional communication channel.
+  - built the bridge between users and the team by crafting a user-friendly 'Contact Us' through this page and form fields bridge continents, inviting messages from distant lands.
+  - manages user feedback, facilitating meaningful interactions between users and the team.
 
-### Backend & Databases:
+### Backend & DB:
 
-- **Ankit Kumar:**
-  - Plays crucial and pivotal roles, including:
-    - Developing the web application, which serves as an online coding platform with multilingual features
-    - Successfully compile the programming languages; currently Python, Java, C++ and JavaScript (under testing)  
-    - Ensuring that the coding environment supports syntax highlighting tailored to each programming language
-    - Implementing auto-closing brackets for tags and displaying line numbering on the left side of each line
-    - Handling real-time CRUD operations (Create, Read, Update, Delete)
-    - Contributing to Testing and Debugging part of code, ensuring a robust application, check and review code of each member before pull (PR) to GitHub
-    - Integrating the chatbot into our application but created and developed by Ashish Kumar
-    - Reviewing and correcting code errors with the support of all members
-    - Lastly, Merging pull requests, reviewing code, and maintaining the GitHub repository.
+- **Ankit Kumar:** plays crucial and pivotal roles (Compilation, Repo maintenance & Multilingual feature), are: 
+  
+    - developing the web application, which serves as an online coding platform with multilingual features.
+    - compile the programming languages; currently Python, Java, C++ and JavaScript (under testing). 
+    - ensures that the coding environment supports syntax highlighting tailored to each programming language.
+    - implements auto-closing brackets for tags and displays line numbering on the left side of each new line.
+    - provides dark theme option for better visibility and reduced eye strain
+    - handles real-time CRUD operations (Create, Read, Update, Delete).
+    - contributes to Testing and Debugging part of the code, ensuring a robust application, checking and reviewing the code of each member before pulling (PR) to GitHub.
+    - integrates the chatbot into our application but created and developed by Ashish.
+    - reviewed and corrected code errors with the support of all members.
+    - merged pull requests, reviewed code, and maintained the GitHub repository.
 
-- **Ashish Kumar:**
-  -  Visionary Developer Spearheading Chatbot and Authentication
-  - Pioneering user experience by developing a chatbot that will provide real-time coding assistance directly within the platform
-  - Secure Access: streamlining user access by implementing a secure and convenient QR code sign-in feature (Upcoming Feature)
-  - Authentication Management:  Alongside Aditya Kumar, who designed the Login page, Ashish handles authentication for the Login Page dashboard, including sign-in and sign-up functionalities using HTML, CSS, JavaScript, and Node.js
-  - Chatbot Development: Using custom data utilization to offer tailored coding help, enhancing the support experience for users.
+- **Ashish Kumar:** Visionary Developer Spearheading Chatbot and Authentication
+  
+  - developing a ChatCoder_Bot that will provide real-time coding assistance directly within the platform.
+  - streamlining user access by implementing a secure and convenient QR code sign-in feature (Upcoming Feature)
+  - designed the Login page (by Aditya), and authentication for the Login Page dashboard, including sign-in and sign-up functionalities using HTML, CSS, JavaScript, and Node.js by Ashish.
+  - develop Chabot using custom data utilization to offer tailored coding help, enhancing the support experience for users.
+
 
 
 
