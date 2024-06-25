@@ -1,0 +1,275 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #000000, #020144);
+    background-size: cover;
+    padding: 20px;
+    position: relative;
+}
+
+/* Title Styles */
+.header-title {
+    font-size: 5.6rem;
+    color: #eee8e4;
+    margin: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Arial', sans-serif;
+    animation: fadeIn 1s ease-in-out, float 4s ease-in-out infinite;
+    z-index: 1;
+    transition: transform 0.3s ease-out;
+}
+
+/* Fade-in animation for the header title */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Float animation */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.login-container {
+    margin-bottom: 7%;
+    margin-left: 41%;
+    background: rgba(21, 74, 32, 0.176);
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 26px;
+    box-shadow: 0 0 15px #00d9ff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #06abed;
+    font-size: 2.4rem;
+    font-weight: 700;
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+/* Slide-in animation for title */
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    animation: slideInFromRight 1s ease-in-out;
+}
+
+/* Slide-in animation for form fields */
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #0992d1;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ff7200;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.5s, box-shadow 0.5s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: rgba(228, 131, 4, 0.13);
+    box-shadow: 0 0 10px rgba(0, 247, 255, 0.26);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #03c2b8, #012572);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Bounce-in animation for button */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+button:hover {
+    background: linear-gradient(135deg, #000000, #0f0258de);
+    box-shadow: 0 0 15px rgb(113, 210, 235);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.login-container #login-form .form-group {
+    color: #fff;
+}
+
+.form-text {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-top: 20px;
+    animation: fadeIn 2.8s ease-in-out;
+}
+
+.form-text a {
+    color: #d8cfc8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.form-text a:hover {
+    color: #00b7ff;
+    text-shadow: 0 0 15px rgb(228, 224, 216);
+}
+
+
+/* Particle animations */
+.movement {
+    position: absolute;
+    background-color: rgb(15, 141, 214);
+    box-shadow: 0 0 25px rgb(10, 160, 197);
+    border-radius: 50%;
+    animation: float 2s ease-in-out infinite;
+    transition: transform 0.3s ease-out;
+}
+.movement:nth-child(1) {
+    width: 25px;
+    height: 25px;
+    top: 80%;
+    left: 10%;
+    animation-duration: 5s;
+}
+.movement:nth-child(2) {
+    width: 18px;
+    height: 18px;
+    top: 22%;
+    left: 36%;
+    animation-duration: 4s;
+}
+.movement:nth-child(3) {
+    width: 22px;
+    height: 22px;
+    top: 54%;
+    left: 28%;
+    animation-duration: 4s;
+}
+.movement:nth-child(4) {
+    width: 15px;
+    height: 15px;
+    top: 86%;
+    left: 9%;
+    animation-duration: 5s;
+}
+.movement:nth-child(5) {
+    width: 16px;
+    height: 16px;
+    top: 30%;
+    left: 10%;
+    animation-duration: 4s;
+}
+.movement:nth-child(6) {
+    width: 14px;
+    height: 14px;
+    top: 64%;
+    left: 48%;
+    animation-duration: 5s;
+}
+.movement:nth-child(7) {
+    width: 26px;
+    height: 26px;
+    top: 90%;
+    left: 40%;
+    animation-duration: 5s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .login-container {
+        padding: 20px;
+        margin-right: 0;
+    }
+
+    .header-title {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom_chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chatbot_animation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body class="show-chatbot">
+    <!-- Styled paragraph -->
+    <div class="content">
+        <p>
+            👋👋Welcome to ChatCoder(C2)-AI, your friendly AI assistant! I'm here to
+            assist you with any questions or tasks you may have.
+            Feel free to chat with me and let me know how I can help you today. <br>
+            While I'm not fully developed yet, the developers are continuously working
+            on enhancing my capabilities. Exciting features such as link suggestions,
+            video suggestions, and even generative image capabilities are currently in
+            development. The Developer Group 78, led by Ashish Kumar, is dedicated to
+            pushing the boundaries of this chat AI and ensuring it reaches its highest
+            potential. <br>💻Stay tuned for updates as we strive to provide you with the
+            best experience possible!
+        </p>
+    </div>
+    <div class="content_2">
+        <p id="paragraphToShow">🙏🙏Thank you for coming user From Ashish kumar Project member of Group_78. 🙏🙏</p>
+    </div>
+
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">💬</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+
+    <div class="chatbot">
+        <header>
+            <div class="avatar"></div>
+            <h2>ChatCoder(C2)-AI</h2>
+            <button class="refresh-button">&#x21bb;</button>
+            <button class="close-button">&times;</button>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">robot_2</span>
+                <p> Hi there 👋 <br> How can I help you today? </p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <img id="imageUploadBtn" src="upload-icon.png" alt="Upload">
+            <textarea placeholder="Message ChatCoder(C2)-AI"></textarea>
+            <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+            <div class="suggestion-buttons">
+                <button id="link-suggestion-btn">🔗</button>
+                <button id="video-suggestion-btn">📹</button>
+                <button id="image-generation-btn">🖼️</button>
+            </div>
+            <button id="send-btn">➤</button>
+        </div>
+    </div>
+
+    <!-- Include socket.io from CDN -->
+    <script src="https://cdn.socket.io/4.5.1/socket.io.min.js"></script>
+    <script src="js/api.js" defer></script>
+    <script src="js/chatbot.js" defer></script>
+    <script src="js/suggestions.js" defer></script>
+    <script src="js/typingIndicator.js" defer></script>
+</body>
+
+</html>

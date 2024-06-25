@@ -1,0 +1,17 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A project for live functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Ashish kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "requests": "^0.3.0",
+    "socket.io": "^4.0.0"
+  }
+}

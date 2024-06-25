@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Challenge</title>
+	<link rel="stylesheet" href="challenges.css">
+</head>
+<header>
+	<nav>
+		<ul>
+			<li><a href="#">Challenge section </a></li>
+		</ul>
+	</nav>
+	<h1>Take the Leap: Challenge Yourself!</h1>
+	<p>"Unleash Your inner coder".</p>
+</header>
+<body>
+	<div class="quiz-container">
+		<h2>Quiz Timer</h2>
+		<button id="start-button">Start</button>
+		<div class="timer">Time: <span id="time">30</span> seconds</div>
+	<div class="quiz-container">  
+		<h1>"Good luck on your coding quest!"</h1>
+		<form>
+			<div class="question" data-correct-answer="2">
+				<h2>Question 1</h2>
+				<p>1. What is the output of the following code: int x = 5; int y = x++ + ++x; cout << y;</p>
+				<input type="radio" id="q1-a" name="q1">
+				<label for="q1-a">A) 11</label>
+				<input type="radio" id="q1-b" name="q1">
+				<label for="q1-b">B) 12</label>
+				<input type="radio" id="q1-c" name="q1">
+				<label for="q1-c">C) 13</label>
+			  </div>
+			  <div class="question" data-correct-answer="1">
+				<h2>Question 2</h2>
+				<p>What is the purpose of the "const" keyword in C++?</p>
+				<input type="radio" id="q2-a" name="q2">
+				<label for="q2-a">A) To define a variable as constant</label>
+				<input type="radio" id="q2-b" name="q2">
+				<label for="q2-b">B) To define a function as constant</label>
+				<input type="radio" id="q2-c" name="q2">
+				<label for="q2-c">C) To define a class as a constant</label>
+			  </div>
+			  <div class="question" data-correct-answer="2">
+				<h2>Question 3</h2>
+				<p>What is the output of the following code: x = [1, 2, 3] y = x.append(4) print(y)?</p>
+				<input type="radio" id="q3-a" name="q3">
+				<label for="q3-a">A) [1, 2, 3, 4] </label>
+				<input type="radio" id="q3-b" name="q2">
+				<label for="q3-b">B) None </label>
+				<input type="radio" id="q3-c" name="q2">
+				<label for="q3-c">C) [4]</label>
+			  </div>
+			  <div class="question" data-correct-answer="1">
+				<h2>Question 4</h2>
+				<p> Which of the following is a correct way to define a function in Python ?</p>
+				<input type="radio" id="q4-a" name="q4">
+				<label for="q4-a">A) def func(x): return x+1 </label>
+				<input type="radio" id="q4-b" name="q2">
+				<label for="q4-b">B) func(x) = x+1</label>
+				<input type="radio" id="q4-c" name="q2">
+				<label for="q4-c">C) def func(x) { return x+1 }</label>
+			  </div>
+			<!-- Add more questions here -->
+
+			<button type="submit">Submit</button>
+			<div class="progress-bar">
+				<div class="progress" style="width: 0%"></div>
+			</div>
+			<div class="score">Score: <span id="score">0</span> / <span id="total">4</span></div>
+		</form>
+		<div class="result"></div>
+	</div>
+	<script src="challenges.js"></script>
+</body>

@@ -1,0 +1,124 @@
+/* Animation for opening the chatbot */
+@keyframes slideInFromRight {
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Animation for closing the chatbot */
+@keyframes slideOutToRight {
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+/* Animation for chat message */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/* Apply animations to elements */
+.chatbot {
+    animation: fadeInScaleUp 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+
+.chatbot:not(.show-chatbot) {
+    animation: fadeOutScaleDown 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+
+.chat li {
+    animation: bounceIn 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+
+/* Apply animations to elements */
+.chatbot {
+    animation: slideInFromRight 2.1s ease-in-out forwards;
+}
+
+.chatbot:not(.show-chatbot) {
+    animation: slideOutToRight 2.1s ease-in-out forwards;
+}
+
+.chat li {
+    animation: fadeIn 2.1s ease forwards;
+}
+
+/* Define keyframes for slide-in animation */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply slide-in animation to paragraphs */
+.content p{
+    animation: slideIn 4.86s ease forwards; /* Apply slide-in animation */
+}
+.content_2 p {
+    animation: slideIn 4s ease forwards; /* Apply slide-in animation */
+
+}
+
+/* Adjusted hover effect with transition */
+.content p:hover,
+.content_2 p:hover {
+    background: rgba(255, 255, 255, 0.8); /* Adjusted background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Adjusted box shadow */
+}
+
+/* Define keyframes for hiding animation */
+@keyframes hide {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply hiding animation to the paragraph */
+#paragraphToShow {
+    animation: hide 6s ease forwards;
+    animation-delay: 0s; /* Start hiding immediately */
+}
+
+/* Adjusted hover effect with transition */
+#paragraphToShow:hover {
+    background: rgba(255, 255, 255, 0.8); /* Adjusted background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Adjusted box shadow */
+    transition: background 0s ease, box-shadow 0.3s ease; /* Transition effect */
+}
+
+@keyframes pop-in-out {
+    0%, 100% {
+        transform: translateY(-50%) scale(1);
+    }
+    50% {
+        transform: translateY(-50%) scale(1.1);
+    }
+}
