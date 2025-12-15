@@ -145,13 +145,3 @@ Explore the project repository: https://github.com/ankit485803/ChatCoder-s-Haven
 
 
 
-
-<p align="center">Connect with me:</p>
-<p align="center">
-  <a href="https://github.com/ankit485803/"><img src="https://img.shields.io/badge/GitHub-ankit485803-blue" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/ankit485803"><img src="https://img.shields.io/badge/LinkedIn-Ankit485803-blue" alt="LinkedIn"></a>
-  <a href="https://leetcode.com/ankit485803/"><img src="https://img.shields.io/badge/LeetCode-ankit485803-green" alt="LeetCode"></a>
-  <a href="https://twitter.com/Ankit485803"><img src="https://img.shields.io/twitter/follow/Ankit485803?style=social" alt="Twitter"></a>
-  <a href="https://www.youtube.com/@ankit_iitp127"><img src="https://img.shields.io/badge/YouTube-Ankit_iitp127-red" alt="YouTube"></a>
-  <!-- Add more social icons as needed -->
-</p>
