@@ -10,3 +10,88 @@ temp
 # dot env file also We don't want ot see see publically Because this file contains the sensitive details like username, password database etc
 
 .env
+
+# not push code mirror
+Backend/codemirror-5.65.9
+
+
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# React (Frontend)
+# =========================
+build/
+dist/
+.cache/
+.next/
+out/
+
+# Testing
+coverage/
+
+# =========================
+# MongoDB
+# =========================
+data/
+*.mongodb
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.bak
+*.tmp
+
+# =========================
+# Docker (if used)
+# =========================
+.dockerignore
+
+# =========================
+# Mac / Linux
+# =========================
+*.out
+
+# =========================
+# Optional: lock files (decide based on team)
+# =========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
