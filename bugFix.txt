@@ -1,5 +1,15 @@
 
 
+PS C:\Users\sanja> cd D:\\GitProj
+PS D:\GitProj> ls
+
+
+Q. fix the Dependabot found vulnerable dependencies
+PS D:\GitProj\ChatCoder-s-Haven_IITP\Frontend\Ashish\ChatCoder_Bot> npm install
+npm ls express
+npm ls path-to-regexp
+
+
 cd Frontend/Ashish/ChatCoder_Bot
 npm update
 npm audit fix
